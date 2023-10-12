@@ -15,4 +15,9 @@ public class Unitselector : MonoBehaviour
     {
         
     }
+
+    // OnClick
+    public void OnClick() {
+        
+    }
 }
