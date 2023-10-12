@@ -2,9 +2,11 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Unitselector : MonoBehaviour
-{
-    // Start is called before the first frame update
+public class UnitData : MonoBehaviour
+{   
+    public GameObject myPrefab;
+
+    // This script will simply instantiate the Prefab when the game starts.
     void Start()
     {
         
@@ -13,11 +15,6 @@ public class Unitselector : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
-    }
-
-    // OnClick
-    public void OnClick() {
         
     }
 }
