@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Flip : MonoBehaviour
+public class ProjectilBehavior : MonoBehaviour
 {
     // Start is called before the first frame update
     void Start()
@@ -13,9 +13,6 @@ public class Flip : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        transform.Rotate(new Vector3(90,0,0));
-        var p = transform.position;
-        p.z = 0;
-        transform.position = p;
+        
     }
 }

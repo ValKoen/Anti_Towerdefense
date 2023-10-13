@@ -7,9 +7,17 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: -7080815948550166528, guid: 1dccb43ef4fb54203a7fe17622d93c1d, type: 3}
+      propertyPath: health
+      value: 120
+      objectReference: {fileID: 0}
     - target: {fileID: 2974794843242189304, guid: 1dccb43ef4fb54203a7fe17622d93c1d, type: 3}
       propertyPath: m_Name
-      value: UnitInGame (2)
+      value: Unit 2 IG
+      objectReference: {fileID: 0}
+    - target: {fileID: 6369861612488575716, guid: 1dccb43ef4fb54203a7fe17622d93c1d, type: 3}
+      propertyPath: m_Speed
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 8201375226624241088, guid: 1dccb43ef4fb54203a7fe17622d93c1d, type: 3}
       propertyPath: m_RootOrder
