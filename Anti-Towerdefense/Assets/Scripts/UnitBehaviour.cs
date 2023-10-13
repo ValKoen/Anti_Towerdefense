@@ -11,7 +11,8 @@ public class UnitBehaviour : MonoBehaviour
     private NavMeshAgent agent;
     public GameObject[] Enemys;
     public GameObject[] Units;
-
+    public float range = 0;
+    public GameObject Prefab;
     private HealthHandler healthHandler;
 
     // Start is called before the first frame update
