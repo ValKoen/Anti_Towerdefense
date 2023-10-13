@@ -57,7 +57,9 @@ public class TowerBehavior : MonoBehaviour
 
         if (curDistance <= range)
         {
-            Instantiate(Prefab, transform);
+            GameObject go = Instantiate(Prefab, transform);
+            ProjectilBehavior projectil = go.GetComponent<ProjectilBehavior>();
+            projectil.target = closest;
         }
     }
 }

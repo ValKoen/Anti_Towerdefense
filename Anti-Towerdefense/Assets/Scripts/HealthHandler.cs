@@ -30,7 +30,7 @@ public class HealthHandler : MonoBehaviour
             var dd = other.gameObject.GetComponent<DamageDealer>();
             health -= dd.Damage;
 
-            Debug.Log(health);
+            Destroy(other.gameObject);
 
             healthUpdate.Invoke();
         }

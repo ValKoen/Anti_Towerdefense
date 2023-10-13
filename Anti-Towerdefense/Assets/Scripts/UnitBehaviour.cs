@@ -45,15 +45,17 @@ public class UnitBehaviour : MonoBehaviour
         agent.destination = Position;
     }
 
-   public void FindClosestEnemy()
+   public void FindClosestUnit()
     {
+        Units = GameObject.FindGameObjectsWithTag("Units");
+
         GameObject closest = null;
         float curDistance = Mathf.Infinity;
 
         float distance = Mathf.Infinity;
         Vector3 position = transform.position;
 
-        foreach (GameObject go in Enemys)
+        foreach (GameObject go in Units)
         {
             Vector3 diff = go.transform.position - position;
             curDistance = diff.sqrMagnitude;
@@ -62,6 +64,13 @@ public class UnitBehaviour : MonoBehaviour
                 closest = go;
                 distance = curDistance;
             }
-        }   
+        }
+
+        if (curDistance <= range)
+        {
+            GameObject go = Instantiate(Prefab, transform);
+            ProjectilBehavior projectil = go.GetComponent<ProjectilBehavior>();
+            projectil.target = closest;
+        }  
     }
 }
