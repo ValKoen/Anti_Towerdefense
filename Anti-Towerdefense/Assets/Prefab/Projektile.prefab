@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: 4152783215880876846}
   - component: {fileID: -5894634757800451104}
   - component: {fileID: -5272819139419218187}
+  - component: {fileID: -6007781775151021445}
   m_Layer: 0
   m_Name: Projektile
   m_TagString: Projektil
@@ -148,5 +149,19 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 6cbd4ed81c08a415b8fe440ccb77f655, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  target: {fileID: 0}
+  projektilGeschwindigkeit: 0
+--- !u!114 &-6007781775151021445
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1223830140189518476}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe53768d18e7d42048c82317cd14a99e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 

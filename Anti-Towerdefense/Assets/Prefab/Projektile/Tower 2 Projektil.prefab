@@ -7,6 +7,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: -5272819139419218187, guid: 2d3dcc470feb44b52a30a45b0f8c075a, type: 3}
+      propertyPath: lifetime
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: -5272819139419218187, guid: 2d3dcc470feb44b52a30a45b0f8c075a, type: 3}
+      propertyPath: projektilGeschwindigkeit
+      value: 200
+      objectReference: {fileID: 0}
     - target: {fileID: -2336321014078306409, guid: 2d3dcc470feb44b52a30a45b0f8c075a, type: 3}
       propertyPath: Damage
       value: 250

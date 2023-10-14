@@ -13,12 +13,16 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -6537878573463069807, guid: 6526a08f4ef8f4869a3a1649c58352b4, type: 3}
       propertyPath: range
-      value: 50
+      value: 5000
       objectReference: {fileID: 0}
     - target: {fileID: -6537878573463069807, guid: 6526a08f4ef8f4869a3a1649c58352b4, type: 3}
       propertyPath: Prefab
       value: 
       objectReference: {fileID: 3605292117918778608, guid: 0d7bd7a9c9a544ccf9a97d675c232aa3, type: 3}
+    - target: {fileID: -6537878573463069807, guid: 6526a08f4ef8f4869a3a1649c58352b4, type: 3}
+      propertyPath: fireRate
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 3973014250138961506, guid: 6526a08f4ef8f4869a3a1649c58352b4, type: 3}
       propertyPath: m_Name
       value: Tower 1 Enemy

@@ -7,6 +7,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: -8033286942766973785, guid: 1dccb43ef4fb54203a7fe17622d93c1d, type: 3}
+      propertyPath: m_SpriteTilingProperty.newSize.x
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: -8033286942766973785, guid: 1dccb43ef4fb54203a7fe17622d93c1d, type: 3}
+      propertyPath: m_SpriteTilingProperty.newSize.y
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: -7080815948550166528, guid: 1dccb43ef4fb54203a7fe17622d93c1d, type: 3}
       propertyPath: health
       value: 100
@@ -75,5 +83,13 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8965868571238372939, guid: 1dccb43ef4fb54203a7fe17622d93c1d, type: 3}
+      propertyPath: range
+      value: 1500
+      objectReference: {fileID: 0}
+    - target: {fileID: 8965868571238372939, guid: 1dccb43ef4fb54203a7fe17622d93c1d, type: 3}
+      propertyPath: Prefab
+      value: 
+      objectReference: {fileID: 412794432419028739, guid: 2c19ff1503386457591f2a21b591712f, type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1dccb43ef4fb54203a7fe17622d93c1d, type: 3}

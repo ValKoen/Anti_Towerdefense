@@ -116,8 +116,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e3414b98039c24c48bf89fd67dc7ab0d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Enemys: []
-  Units: []
+  range: 0
+  Prefab: {fileID: 0}
+  units: []
+  deployManager: {fileID: 0}
 --- !u!50 &2374452695666636270
 Rigidbody2D:
   serializedVersion: 4
