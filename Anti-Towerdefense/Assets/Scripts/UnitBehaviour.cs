@@ -79,7 +79,7 @@ public class UnitBehaviour : MonoBehaviour
 
         if (boom == true)
         {
-            Debug.Log("Fire");
+            Debug.Log("Fire Unit");
             GameObject go = Instantiate(Prefab, transform);
             ProjectilBehavior projectil = go.GetComponent<ProjectilBehavior>();
             projectil.target = closest;

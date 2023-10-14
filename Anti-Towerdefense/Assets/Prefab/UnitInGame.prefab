@@ -138,6 +138,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Enemys: []
   Units: []
+  Prefab: {fileID: 0}
+  range: 0
+  closest: {fileID: 0}
+  fireRate: 0
+  boom: 0
 --- !u!114 &-7080815948550166528
 MonoBehaviour:
   m_ObjectHideFlags: 0

@@ -35,7 +35,7 @@ public class TowerBehavior : MonoBehaviour
 
         if (delta.TotalSeconds >= fireRate)
         {
-            units = GameObject.FindGameObjectsWithTag("Unti");
+            units = GameObject.FindGameObjectsWithTag("Unit");
             StartCoroutine(FireCoroutine());
             startupTime = DateTime.Now;
         }
@@ -70,7 +70,7 @@ public class TowerBehavior : MonoBehaviour
 
         if (boom == true)
         {
-            Debug.Log("Fire");
+            Debug.Log("Fire Tower");
             GameObject go = Instantiate(Prefab, transform);
             ProjectilBehavior projectil = go.GetComponent<ProjectilBehavior>();
             projectil.target = closest;
