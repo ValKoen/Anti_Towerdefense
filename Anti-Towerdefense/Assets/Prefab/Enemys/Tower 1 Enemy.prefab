@@ -23,9 +23,21 @@ PrefabInstance:
       propertyPath: fireRate
       value: 3
       objectReference: {fileID: 0}
+    - target: {fileID: -4562847924462335383, guid: 6526a08f4ef8f4869a3a1649c58352b4, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: b32676b9f53bf47f7bd9ec03c6833b6b, type: 3}
     - target: {fileID: 3973014250138961506, guid: 6526a08f4ef8f4869a3a1649c58352b4, type: 3}
       propertyPath: m_Name
       value: Tower 1 Enemy
+      objectReference: {fileID: 0}
+    - target: {fileID: 6079629788607071422, guid: 6526a08f4ef8f4869a3a1649c58352b4, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.x
+      value: 1.28
+      objectReference: {fileID: 0}
+    - target: {fileID: 6079629788607071422, guid: 6526a08f4ef8f4869a3a1649c58352b4, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.y
+      value: 1.28
       objectReference: {fileID: 0}
     - target: {fileID: 6729320474915724454, guid: 6526a08f4ef8f4869a3a1649c58352b4, type: 3}
       propertyPath: m_RootOrder
@@ -33,11 +45,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6729320474915724454, guid: 6526a08f4ef8f4869a3a1649c58352b4, type: 3}
       propertyPath: m_LocalScale.x
-      value: 2
+      value: 50
       objectReference: {fileID: 0}
     - target: {fileID: 6729320474915724454, guid: 6526a08f4ef8f4869a3a1649c58352b4, type: 3}
       propertyPath: m_LocalScale.y
-      value: 2
+      value: 50
       objectReference: {fileID: 0}
     - target: {fileID: 6729320474915724454, guid: 6526a08f4ef8f4869a3a1649c58352b4, type: 3}
       propertyPath: m_LocalScale.z
