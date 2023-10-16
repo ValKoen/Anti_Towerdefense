@@ -57,6 +57,8 @@ public class TowerBehavior : MonoBehaviour
                 distance = curDistance;
             }
         }
+
+        Debug.Log(distance);
         
         if (distance < range)
         {
